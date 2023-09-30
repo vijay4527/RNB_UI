@@ -4,10 +4,10 @@ import { useState, useEffect } from 'react';
 import styles from "./page.module.css";
 
 
-export const metadata = {
-  title: "Online Cake Delivery in Mumbai, Pune and Mangalore",
-  description: "Online Cakes Shop in Mumbai, Pune and Mangalore . Online Cakes Delivery . Buy,Order & Send Birthday, Wedding Anniversary & Chocolate Cakes anywhere in Mumbai from best Cake Shop Ribbons & Balloons.",
-};
+// export const metadata = {
+//   title: "Online Cake Delivery in Mumbai, Pune and Mangalore",
+//   description: "Online Cakes Shop in Mumbai, Pune and Mangalore . Online Cakes Delivery . Buy,Order & Send Birthday, Wedding Anniversary & Chocolate Cakes anywhere in Mumbai from best Cake Shop Ribbons & Balloons.",
+// };
 
 const Portfolio = () => {
   const placeholder = 'Enter message on cake';
