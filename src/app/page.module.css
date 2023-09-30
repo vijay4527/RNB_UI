@@ -1,0 +1,38 @@
+.fullpagecontainer{
+  overflow:hidden; 
+}
+.fullpagecontainer2 {
+   height: 100vh;
+   overflow-y: scroll;
+   scroll-snap-type: y mandatory;
+}
+.fullpagecontainer3{
+  overflow:hidden;
+}
+.section{
+ height:100vh;
+ width:100%;
+ position: relative;
+   scroll-snap-align: center;
+ margin:0 auto;
+ padding:0px;
+ overflow:hidden;
+/*  display:table;*/
+}
+.homeWrapper{
+ position:relative;
+}
+.homesections{
+ position:absolute;
+ width: 100%;
+}
+.homesections img{
+  width: 100%;
+}
+#about{
+ background-color:#ccc;
+}
+#about2{
+ background-color:#333;
+}
+

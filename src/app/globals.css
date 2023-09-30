@@ -1,0 +1,38 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap");
+
+:root{
+  --primary-theme: #51171d;
+  /* --secondary-theme: #fff0bd; */
+  --secondary-theme: #ffb606;
+  --primary-light-theme: #51171d30;
+  --secondary-light-theme: ;
+  --body-text-color: #000000;
+  --body-bg-color: #f9fafa;
+  --theme-white: #ffffff;
+  --hyper-link-text: ;
+  --border-radius: 25px;
+  --border-btn-radius: 25px;
+  --font-family-cursive:  'Dancing Script', cursive;
+  --font-family:  'Poppins', sans-serif;
+}
+
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  max-width: 100%;
+  overflow-x: hidden;
+  font-family: var(--font-family);
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
