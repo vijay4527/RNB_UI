@@ -44,7 +44,7 @@ const Contact = () => {
                       </a>
                     </div>
                     <div className={styles.addToCart_CartItemInfo}>
-                      <a>LEVI'S Men Checked Slim Fit Casual Shirt</a>
+                      <a>{`LEVI'S Men Checked Slim Fit Casual Shirt`}</a>
                       <div>
                         <h4>₹1299</h4>
                         <h5>5 kg White</h5>

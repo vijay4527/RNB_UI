@@ -105,13 +105,13 @@ const About = () => {
                 </div>
                 <div className={styles.plp_FilterBody}>
                   {items.map((item) => (
-                    <h4 className={styles.plp_FilterCate}>{item.name}</h4>
+                    <h4 className={styles.plp_FilterCate} key={""}>{item.name}</h4>
                   ))}
                 </div>
               </div>
               <div className={styles.plp_Cards}>
                 {PLPItems.map((item) => (
-                    <div className={styles.plp_CardItems}>
+                    <div className={styles.plp_CardItems} key={""}>
                     <article className={styles.fc} onMouseMove={handleMouseMove} onMouseLeave={handleMouseLeave}>
                       <div className={styles.fc__wrapper} style={{ transform: `rotateX(${rotate.rotateX}deg) rotateY(${rotate.rotateY}deg)` }}>
                         <img src={`https://fama.b-cdn.net/RnB/lstcakeimg/${item.id}.webp`} className={styles.fc__thumb} />
