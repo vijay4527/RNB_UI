@@ -4,10 +4,10 @@ import styles from "./page.module.css";
 import { useEffect, useState } from 'react';
 import style from '../globals.css';
 
-export const metadata = {
-  title: "Online Cake Delivery in Mumbai, Pune and Mangalore",
-  description: "Online Cakes Shop in Mumbai, Pune and Mangalore . Online Cakes Delivery . Buy,Order & Send Birthday, Wedding Anniversary & Chocolate Cakes anywhere in Mumbai from best Cake Shop Ribbons & Balloons.",
-};
+// export const metadata = {
+//   title: "Online Cake Delivery in Mumbai, Pune and Mangalore",
+//   description: "Online Cakes Shop in Mumbai, Pune and Mangalore . Online Cakes Delivery . Buy,Order & Send Birthday, Wedding Anniversary & Chocolate Cakes anywhere in Mumbai from best Cake Shop Ribbons & Balloons.",
+// };
 
 const About = () => {
   const [rotate, setRotate] = useState({ rotateX: 0, rotateY: 0 });
