@@ -8,7 +8,7 @@ import { ScrollTrigger } from "gsap/dist/ScrollTrigger";
 import Image from "next/image";
 gsap.registerPlugin(ScrollTrigger);
 
-const City = () => {
+const city = () => {
   useEffect(() => {
     ScrollTrigger.defaults({
       toggleActions: "restart pause resume pause",
@@ -44,13 +44,13 @@ const City = () => {
         <section id="home" className={styles.section}>
           <div className={styles.homeWrapper}>
             <div className={`homeSlider ${styles.homesections}`}>
-              <Image
+              <img
                 src="https://uploads-ssl.webflow.com/5cff83ac2044e22cb8cf2f11/5cffeaf7b3cb0ed2d33f7943_hero.jpg"
                 alt=""
               />
             </div>
             <div className={`homeSliderReveal ${styles.homesections}`}>
-              <Image
+              <img
                 src="https://uploads-ssl.webflow.com/5cff83ac2044e22cb8cf2f11/5d13364599bb70e3560cc4e5_background-min 3.png"
                 alt=""
               />
@@ -68,4 +68,4 @@ const City = () => {
   );
 };
 
-export default City;
+export default city;

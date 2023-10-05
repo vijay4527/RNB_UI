@@ -6,7 +6,7 @@ import axios from "axios";
 import { usePathname } from "next/navigation";
 import toastr from "toastr";
 
-const productbyname = () => {
+const ProductByName = () => {
   const url = usePathname();
   const parts = url.split("/");
   const productName = decodeURIComponent(parts[parts.length - 1]);
@@ -86,7 +86,6 @@ const productbyname = () => {
                 if (productData.type_id == 3) {
                   setUnit(productData.productTypeData[0].variety_type);
                   setValues(productData.productTypeData[0].variety_name);
-                  setActiveTab(productData.productTypeData[0].variety_id);
                   setActiveWeight(productData.productTypeData[0].variety_name);
                 }
                 break;
@@ -483,6 +482,7 @@ const productbyname = () => {
                                   ? styles.active
                                   : ""
                               }
+                              key={ele.variety_id}
                               onClick={() =>
                                 handleProductTypeChange(ele.variety_id)
                               }
@@ -752,4 +752,4 @@ const productbyname = () => {
   );
 };
 
-export default productbyname;
+export default ProductByName;
