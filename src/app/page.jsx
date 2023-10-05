@@ -12,7 +12,7 @@ const Home = () => {
       localStorage.clear();
       localStorage.setItem("cityName", url);
     }
-  }, []);
+  }, [url]);
 
   return <></>;
 };
