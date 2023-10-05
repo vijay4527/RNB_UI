@@ -5,6 +5,7 @@ import { useEffect } from "react";
 import styles from "../page.module.css";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/dist/ScrollTrigger";
+import Image from "next/image";
 gsap.registerPlugin(ScrollTrigger);
 
 const city = () => {
@@ -49,7 +50,7 @@ const city = () => {
               />
             </div>
             <div className={`homeSliderReveal ${styles.homesections}`}>
-              <img
+              <Image
                 src="https://uploads-ssl.webflow.com/5cff83ac2044e22cb8cf2f11/5d13364599bb70e3560cc4e5_background-min 3.png"
                 alt=""
               />
