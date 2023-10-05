@@ -8,7 +8,7 @@ import { ScrollTrigger } from "gsap/dist/ScrollTrigger";
 import Image from "next/image";
 gsap.registerPlugin(ScrollTrigger);
 
-const city = () => {
+const City = () => {
   useEffect(() => {
     ScrollTrigger.defaults({
       toggleActions: "restart pause resume pause",
@@ -68,4 +68,4 @@ const city = () => {
   );
 };
 
-export default city;
+export default City;
