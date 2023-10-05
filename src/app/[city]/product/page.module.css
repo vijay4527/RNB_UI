@@ -480,9 +480,9 @@
   height: 100%;
   overflow: hidden;
 }
-.title{
+/* .title{
 
-}
+} */
 #stars {
   border-radius: 20px;
   width: 1px;
@@ -544,4 +544,8 @@
   to {
     transform: translateY(-2000px);
   }
+}
+
+.span{
+  color: White
 }
