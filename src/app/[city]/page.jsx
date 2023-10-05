@@ -44,7 +44,7 @@ const city = () => {
         <section id="home" className={styles.section}>
           <div className={styles.homeWrapper}>
             <div className={`homeSlider ${styles.homesections}`}>
-              <img
+              <Image
                 src="https://uploads-ssl.webflow.com/5cff83ac2044e22cb8cf2f11/5cffeaf7b3cb0ed2d33f7943_hero.jpg"
                 alt=""
               />
