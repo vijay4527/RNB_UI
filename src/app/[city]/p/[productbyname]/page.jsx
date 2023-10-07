@@ -9,7 +9,8 @@ import toastr from "toastr";
 const ProductByName = () => {
   const url = usePathname();
   const parts = url.split("/");
-  const productName = decodeURIComponent(parts[parts.length - 1]);
+  const producturl = decodeURIComponent(parts[parts.length - 1]);
+  const productName = producturl.split("-").join(" ");
   const placeholder = "Enter message on cake";
   const [text, setText] = useState("");
   const [index, setIndex] = useState(0);
